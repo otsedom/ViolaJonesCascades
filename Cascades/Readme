@@ -1,1 +1,26 @@
 xml files
+
+haarcascade_frontalface_default.xml   
+Default face detector included in OpenCV distribution. Used to show a simple way 
+to combine a face detector to later search a facial component in the facial ROI.
+
+haarcascade_mcs_upperbody.xml
+Head and shoulders detector trained with haar features
+
+haarcascade_mcs_righteye.xml
+haarcascade_mcs_righteye_alt.xml
+Two different detectors used for the right eye (in the image)
+
+haarcascade_mcs_lefteye.xml
+haarcascade_mcs_lefteye_alt.xml
+Two different detectors used for the left eye (in the image)
+
+haarcascade_mcs_eyepair_small.xml
+haarcascade_mcs_eyepair_big.xml
+Detector trained for eye pairs
+
+haarcascade_mcs_nose.xml
+A nose detector
+
+haarcascade_mcs_mouth.xml
+A mouth detector
