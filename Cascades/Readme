@@ -25,4 +25,14 @@ A nose detector
 haarcascade_mcs_mouth.xml
 A mouth detector
 
+Folders
+
+Computed with traincascade using LBP features
+
+classifierLE_LBP and classifierRE_LBP
+Eye detectors
+
+classifierNM_LBP
+NOse and mouth detector
+
 
