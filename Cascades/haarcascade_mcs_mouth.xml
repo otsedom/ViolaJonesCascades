@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-25x15 Mouth detector computed with 7000 positive samples
+25x15 (widthxheight) Mouth detector computed with 7000 positive samples
 2006-present, Modesto Castrillon-Santana (SIANI, Universidad de Las Palmas de Gran Canaria, Spain.
 
 COMMERCIAL USE:
@@ -122,8 +122,8 @@ Section 8  Interpretation.
 <opencv_storage>
 <cascade type_id="opencv-cascade-classifier"><stageType>BOOST</stageType>
   <featureType>HAAR</featureType>
-  <height>25</height>
-  <width>15</width>
+  <height>15</height>
+  <width>25</width>
   <stageParams>
     <maxWeakCount>218</maxWeakCount></stageParams>
   <featureParams>

@@ -36,14 +36,14 @@ while True:
         scaleFactor=1.1,
         minNeighbors=5,
         minSize=(30, 30),
-        flags=cv2.cv.CV_HAAR_SCALE_IMAGE
+        flags=cv2.CASCADE_SCALE_IMAGE
     )
 
     # Show detections
     if len(faces)==1:
-        print "Found {0} face!".format(len(faces))
+        print("Found {0} face!".format(len(faces)))
     else:
-        print "Found {0} faces!".format(len(faces))
+        print("Found {0} faces!".format(len(faces)))
 
     # Iterate over each face found
     for (x, y, w, h) in faces:
@@ -51,8 +51,8 @@ while True:
         face = cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),2)
 
         #Searching noses in the lower 2/3 of the face
-        roi_gray = gray[y + h/3:y + h, x:x + w]
-        roi_color = frame[y + h/3:y + h, x:x + w]
+        roi_gray = gray[y + (int)(h/3):y + h, x:x + w]
+        roi_color = frame[y + (int)(h/3):y + h, x:x + w]
 
          # Detect a nose within the region bounded by each face (the ROI)
         nose = noseCascade.detectMultiScale(roi_gray)

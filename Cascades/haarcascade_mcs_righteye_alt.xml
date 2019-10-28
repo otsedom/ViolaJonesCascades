@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-18x12 Right eye (in the image) detector computed with 12000 positive samples
+18x12 (widthxheight) Right eye (in the image) detector computed with 12000 positive samples
 2012-present, Modesto Castrillon-Santana (SIANI, Universidad de Las Palmas de Gran Canaria, Spain.
 
 COMMERCIAL USE:
@@ -120,7 +120,7 @@ Section 8 – Interpretation.
 <opencv_storage>
 <classifier_OjoD_18_12_SIANIfacity type_id="opencv-haar-classifier">
   <size>
-    18 12</size>
+    12 18</size>
   <stages>
     <_>
       <!-- stage 0 -->

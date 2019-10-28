@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-22x5 Eye pair detector computed with 7000 positive samples
+22x5 (widthxheight) Eye pair detector computed with 7000 positive samples
 2006-present, Modesto Castrillon-Santana (SIANI, Universidad de Las Palmas de Gran Canaria, Spain.
 
 COMMERCIAL USE:
@@ -121,8 +121,8 @@ Section 8  Interpretation.
 <opencv_storage>
 <cascade type_id="opencv-cascade-classifier"><stageType>BOOST</stageType>
   <featureType>HAAR</featureType>
-  <height>22</height>
-  <width>5</width>
+  <height>5</height>
+  <width>22</width>
   <stageParams>
     <maxWeakCount>133</maxWeakCount></stageParams>
   <featureParams>

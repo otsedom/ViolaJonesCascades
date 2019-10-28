@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-12x20 Right ear (in the image) detector computed with 5000 positive and 15000 negative samples
+12x20 (widthxheight) Right ear (in the image) detector computed with 5000 positive and 15000 negative samples
 2011-present, Modesto Castrillon-Santana (SIANI, Universidad de Las Palmas de Gran Canaria, Spain.
 
 COMMERCIAL USE:
@@ -121,8 +121,8 @@ Section 8  Interpretation.
 <opencv_storage>
 <cascade type_id="opencv-cascade-classifier"><stageType>BOOST</stageType>
   <featureType>HAAR</featureType>
-  <height>12</height>
-  <width>20</width>
+  <height>20</height>
+  <width>12</width>
   <stageParams>
     <maxWeakCount>61</maxWeakCount></stageParams>
   <featureParams>
