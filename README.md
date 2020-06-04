@@ -10,6 +10,6 @@ A couple of python sample codes are included, revised for python 3.7 opencv 4.1.
 Observe the license details included in each xml file.
 
 
-If any of these detectors help you reduce time to develop, donations are welcome :)
+If any of these detectors helps you to reduce time to develop, donations are welcome :)
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=6LSH6RCDJBBPC&currency_code=EUR&source=url)
